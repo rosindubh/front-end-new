@@ -39,7 +39,7 @@ export default function Upload() {
     const uploadImage = async (base64EncodedImage) => {
         console.log(base64EncodedImage) //send encoded image string to the console
         try {
-            await fetch('http://localhost:3001/api/upload', {
+            await fetch('https://postcard-pals-proxy.herokuapp.com/api/upload', {
                 method: 'POST',
                 body: JSON.stringify({ data: base64EncodedImage }),
                 headers: { 'Content-Type': 'application/json' },
