@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  margin: 5px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+}
+
+input {
+  display: flex;
+  margin: 5px;
+}
+
+.logout {
+  display: flex;
+}
+
+label {
+  margin: 5px
+}
